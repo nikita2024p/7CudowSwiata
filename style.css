@@ -47,7 +47,6 @@ flex-direction:column;
 nav a{
 border-top:1px solid #444;
 }
-}
 #logo{
     background-color: #2e7d32;     
     font-family: Arial, Helvetica, sans-serif;
@@ -352,5 +351,6 @@ footer {
     background-color: #1565c0;
 
 }
+
 
 
