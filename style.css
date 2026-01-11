@@ -8,15 +8,6 @@ background-color: #f5f5dc;
 font-family: Arial, sans-serif;
 min-height:100vh;
 }
-    table {
-        width: 50%;
-        margin: 0;
-    }
-
-    .video {
-        width: 50%;
-        margin: 0;
-    }
 }
 nav{
 background:#2c3e50;
@@ -361,4 +352,5 @@ footer {
     background-color: #1565c0;
 
 }
+
 
