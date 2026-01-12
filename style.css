@@ -351,41 +351,6 @@ footer {
     background-color: #1565c0;
 
 }
-@media (max-width: 599px) {
-
-    table{
-        display:none;
-    }
-}
-@media (min-width: 600px) and (max-width: 1199px) {
-
-    section {
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-        align-items: flex-start;
-    }
-
-    .facts {
-        width: 50%;
-    }
-
-    .video {
-        width: 50%;
-        max-width: none;
-        margin: 0;
-    }
-
-    section h2,
-    section a {
-        width: 100%;
-        text-align: center;
-    }
-}
-
-
-
-
 
 
 
