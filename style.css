@@ -353,16 +353,8 @@ footer {
 }
 @media (max-width: 599px) {
 
-    section h2,
-    section .facts,
-    section a {
-        display: none;
-    }
-
-    .video {
-        width: 100%;
-        max-width: none;
-        margin: 0 auto;
+    table{
+        display:none;
     }
 }
 @media (min-width: 600px) and (max-width: 1199px) {
@@ -390,6 +382,7 @@ footer {
         text-align: center;
     }
 }
+
 
 
 
