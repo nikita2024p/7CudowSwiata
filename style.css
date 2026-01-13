@@ -4,7 +4,7 @@ padding:0;
 box-sizing:border-box;
 }
 body{
-background-color: #f5f5dc;
+background-color: red;
 font-family: Arial, sans-serif;
 min-height:100vh;
 }
@@ -452,3 +452,4 @@ footer {
         max-width: 100%;
     }
 }
+
