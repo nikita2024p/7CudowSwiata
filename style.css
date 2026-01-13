@@ -365,75 +365,90 @@ footer {
 }
 @media screen and (max-width: 599px) {
     .table-container {
-        display: none; /* Tabela i jej nagłówek znikają */
+        display: none !important; /* Tabela + nagłówek znikają */
     }
     
     .video-container {
         width: 100%;
-        padding: 10px;
+        padding: 15px 10px;
+        margin: 20px auto;
     }
     
     .video-heading {
-        font-size: 1.2rem;
+        font-size: 1.3rem !important;
         text-align: center;
-        margin-bottom: 15px;
+        margin: 20px 0 15px 0;
+        color: #2c3e50;
+    }
+    
+    .video {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
     }
     
     .video iframe {
         width: 100% !important;
-        height: 250px !important;
-        max-width: 100%;
+        height: 220px !important;
+        border-radius: 8px;
     }
     
     .content-wrapper {
-        padding: 10px;
-    }
-}
-
-/* Dla tabletów 600px - 1199px */
-@media screen and (min-width: 600px) and (max-width: 1199px) {
-    .table-container {
-        overflow-x: auto;
-        margin-bottom: 20px;
-    }
-    
-    .table-heading {
-        font-size: 1.4rem;
-        text-align: center;
-        margin-bottom: 15px;
+        padding: 10px !important;
     }
     
     table {
-        width: 100%;
-        font-size: 0.9rem;
-        border-collapse: collapse;
+        display: none !important;
+    }
+}
+
+/* TABLETY 600px - 1199px */
+@media screen and (min-width: 600px) and (max-width: 1199px) {
+    .table-container {
+        overflow-x: auto;
+        display: block !important;
+        margin: 20px auto;
+        padding: 10px;
+    }
+    
+    .table-heading {
+        font-size: 1.4rem !important;
+        text-align: center;
+        margin: 25px 0 15px 0 !important;
+        display: block !important;
+    }
+    
+    table {
+        width: 100% !important;
+        min-width: 500px;
+        font-size: 0.85rem;
     }
     
     th, td {
-        padding: 8px 6px;
-        border: 1px solid #ddd;
-        text-align: left;
+        padding: 8px 5px !important;
+        font-size: 0.85rem;
+        text-align: center;
     }
     
     .video-container {
         text-align: center;
         padding: 20px;
+        margin: 30px auto;
     }
     
     .video-heading {
-        font-size: 1.5rem;
+        font-size: 1.5rem !important;
         margin-bottom: 20px;
+        display: block !important;
+    }
+    
+    .video {
+        max-width: 90%;
+        margin: 0 auto;
     }
     
     .video iframe {
-        width: 100%;
-        max-width: 600px;
-        height: 350px;
+        height: 300px !important;
+        max-width: 100%;
     }
 }
-
-
-
-
-
-
